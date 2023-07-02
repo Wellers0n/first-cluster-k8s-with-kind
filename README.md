@@ -25,14 +25,34 @@ I'm making this project to improve my skills!
 
 ## Commands
 
-#### init config
+#### Init config
 
 ```sh
     kind create cluster --name multinode --config ./cluster.yml
 ```
 
-#### unit nginx with kubectl
+#### Init nginx with kubectl
 
 ```sh
     kubectl run nginx --image nginx
+```
+
+#### Commends to get clusters with kind
+
+```sh
+    kind get clusters
+```
+
+#### Commends to get nodes and pods with kubectl
+
+```sh
+    kubectl get namespaces
+```
+
+```sh
+    kubectl get pods
+```
+
+```sh
+    kubectl get nodes
 ```
